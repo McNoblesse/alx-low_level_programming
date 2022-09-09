@@ -1,7 +1,0 @@
-alias add='git add .'
-alias com='git commit -m'
-alias gcc='gcc --help'
-alias h='--help'
-alias mod='chmod u+x'
-alias pull='git pull'
-alias sv='git push'
