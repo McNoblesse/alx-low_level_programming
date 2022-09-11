@@ -8,18 +8,16 @@
  */
 int main(void)
 {
-        char low_alpha;
-
+	char low_alpha;
 	char e = 'e';
-
 	char q = 'q';
 
-        for (low_alpha = 'a'; low_alpha <= 'z'; low_alpha++)
-        {
-		for (low_alpha != 'e' && low_alpha != 'q')
-			putchar(low_alpha);
-        }
-        putchar('\n');
+	for (low_alpha = 'a'; low_alpha <= 'z'; low_alpha++)
+	{
+		if (low_alpha != e && low_alpha != q)
+		putchar(low_alpha);
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
