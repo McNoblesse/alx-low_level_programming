@@ -10,9 +10,9 @@ int main(void)
 {
         char low_alpha;
 
-	char e = 'e'
+	char e = 'e';
 
-	char q = 'q'
+	char q = 'q';
 
         for (low_alpha = 'a'; low_alpha <= 'z'; low_alpha++)
         {
