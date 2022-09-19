@@ -2,7 +2,7 @@
 
 /**
  * main - A program to print the Alphabets in lowercase
- * and exclude q and e
+ * and exclude q and e.
  *
  * Return: Always 0 (Success)
  */
